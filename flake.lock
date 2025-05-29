@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1739736696,
+        "narHash": "sha256-zON2GNBkzsIyALlOCFiEBcIjI4w38GYOb+P+R4S8Jsw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d74a2335ac9c133d6bbec9fc98d91a77f1604c1f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "snowboot": "snowboot"
+      }
+    },
+    "snowboot": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1747843806,
+        "narHash": "sha256-8yQCMEHmMKN5nMOGK9iLVWSPwIlTxB4W8N7RnXRz4A0=",
+        "ref": "refs/heads/main",
+        "rev": "a39da469de9e43500a8a837a3894bb109ad3ae45",
+        "revCount": 105,
+        "type": "git",
+        "url": "https://git.mbosch.me/linus/snowboot.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://git.mbosch.me/linus/snowboot.git"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
